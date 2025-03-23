@@ -1,4 +1,4 @@
-# ML Classification - Network Traffic Analysis
+# Efficient Network Traffic Analysis using Machine Learning
 This project aims to analyze and classify a real network traffic dataset to detect malicious/benign traffic records. It compares and tunes the performance of several Machine Learning algorithms to maintain the highest accuracy and lowest False Positive/Negative rates.
 
 ## Data Set (Aposemat IoT-23)
