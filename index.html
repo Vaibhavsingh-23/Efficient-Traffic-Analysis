@@ -8,7 +8,8 @@
     <title>
         Efficient Traffic Analysis using Machine Learning
     </title>
-    <meta name="description" content="Simple landind page" />
+    <meta name="description" content="This project aims to efficiently analyze and classify a real network traffic dataset to detect
+    malicious/benign traffic records using machine learning." />
     <meta name="keywords" content="" />
     <meta name="author" content="" />
     <script src="https://kit.fontawesome.com/f80f74c946.js" crossorigin="anonymous"></script>
@@ -47,14 +48,15 @@
                 id="nav-content">
                 <ul class="list-reset lg:flex justify-end flex-1 items-center">
                     <li class="mr-3">
-                        <a class="inline-block py-2 px-4 text-black font-bold no-underline" href="https://github.com/Vaibhavsingh-23/Efficient-Traffic-Analysis">GitHub Repo</a>
+                        <a class="inline-block py-2 px-4 text-black font-bold no-underline"
+                            href="https://github.com/Vaibhavsingh-23/Efficient-Traffic-Analysis">GitHub Repo</a>
                     </li>
                 </ul>
                 <a href="https://github.com/Vaibhavsingh-23/Efficient-Traffic-Analysis">
-                <button id="navAction"
-                    class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                    Notebooks
-                </button>
+                    <button id="navAction"
+                        class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                        Notebooks
+                    </button>
                 </a>
             </div>
         </div>
@@ -67,19 +69,21 @@
             <div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
                 <h1 class="my-4 text-5xl font-bold leading-tight">
                     Efficient Traffic Analysis using Machine Learning
-    
+
                 </h1>
                 <p class="leading-normal text-2xl mb-8">
-                    This project aims to efficiently analyze and classify a real network traffic dataset to detect malicious/benign traffic records using machine learning.
+                    This project aims to efficiently analyze and classify a real network traffic dataset to detect
+                    malicious/benign traffic records using machine learning.
                 </p>
                 <!-- Button with GitHub Icon -->
-                 <a href="https://github.com/Vaibhavsingh-23/Efficient-Traffic-Analysis">
-                <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out flex items-center space-x-2">
-                    <!-- Font Awesome GitHub Icon -->
-                    <i class="fab fa-github w-5 h-5 text-gray-800"></i>
-                    <span>Github</span>
-                </button>
-                </a>  
+                <a href="https://github.com/Vaibhavsingh-23/Efficient-Traffic-Analysis">
+                    <button
+                        class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out flex items-center space-x-2">
+                        <!-- Font Awesome GitHub Icon -->
+                        <i class="fab fa-github w-5 h-5 text-gray-800"></i>
+                        <span>Github</span>
+                    </button>
+                </a>
             </div>
             <!--Right Col-->
             <div class="w-full md:w-3/5 py-6 text-center">
@@ -122,17 +126,13 @@
             <div class="flex flex-wrap">
                 <div class="w-5/6 sm:w-1/2 p-6">
                     <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-                        Lorem ipsum dolor sit amet
+                        Dataset Overview
                     </h3>
                     <p class="text-gray-600 mb-8">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo
-                        posuere et sit amet ligula.
+                        The CTU-IoT-Malware-Capture-34-1 dataset, a component of the comprehensive Aposemat IoT-23 collection, provides a valuable resource for researchers and developers focused on IoT security.
+                        
+                        This dataset is meticulously labeled, distinguishing between malicious and benign network traffic captured from real-world IoT devices. It is provided in Bro/Zeek log format, offering detailed network activity records essential for in-depth analysis and intrusion detection system (IDS) development.
                         <br />
-                        <br />
-
-                        Images from:
-
-                        <a class="text-pink-500 underline" href="https://undraw.co/">undraw.co</a>
                     </p>
                 </div>
                 <div class="w-full sm:w-1/2 p-6">
@@ -357,16 +357,11 @@
                 <div class="w-full sm:w-1/2 p-6 mt-6">
                     <div class="align-middle">
                         <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-                            Lorem ipsum dolor sit amet
+                            Data Characteristics and Utility
                         </h3>
                         <p class="text-gray-600 mb-8">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo
-                            posuere et sit amet ligula.
-                            <br />
-                            <br />
-                            Images from:
-
-                            <a class="text-pink-500 underline" href="https://undraw.co/">undraw.co</a>
+                            This dataset's significance lies in its ability to facilitate the creation and assessment of robust security solutions tailored for the unique challenges of IoT environments. The detailed Bro/Zeek logs include connection metadata, DNS queries, HTTP interactions, and SSL/TLS handshake information, enabling the extraction of a wide array of features for machine learning applications. By providing a realistic depiction of IoT network traffic, including both normal and malicious behaviors, CTU-IoT-Malware-Capture-34-1 serves as a crucial tool for advancing the state-of-the-art in IoT cybersecurity.
+                        </br>
                         </p>
                     </div>
                 </div>
@@ -380,24 +375,39 @@
             <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
                 PHASE 1 - Initial Data Cleaning
             </h2>
-            <div class="w-full mb-4">
+            <div class="w-full mb-4 flex flex-col items-center">
                 <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+                <a href="https://colab.research.google.com/github/Vaibhavsingh-23/Efficient-Traffic-Analysis/blob/main/notebooks/1-initial-data-cleaning.ipynb" target="_blank" rel="noopener noreferrer">
+                    <button class="flex items-center justify-center rounded-md hover:shadow-md transition-shadow duration-300 mt-4">
+                        <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" class="h-6 w-auto" />
+                    </button>
+                </a>
             </div>
             <div class="flex flex-wrap">
-                <div class="w-5/6 sm:w-1/2 p-6">
+                <div class="w-full sm:w-1/2 p-6">
+                    <p class="mb-12 text-gray-600">
+                        In this phase, we focus on transforming raw data into a structured, high-quality format for
+                        further analysis. The process involves handling missing values, removing duplicates, correcting
+                        inconsistencies, and standardizing data formats. By ensuring data integrity, we lay a strong
+                        foundation for accurate insights and machine learning applications. Key steps include:
+                    </p>
                     <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-                        Lorem ipsum dolor sit amet
+                        Data Loading:
                     </h3>
                     <p class="text-gray-600 mb-8">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo
-                        posuere et sit amet ligula.
-                        <br />
-                        <br />
-
-                        Images from:
-
-                        <a class="text-pink-500 underline" href="https://undraw.co/">undraw.co</a>
+                        Importing raw dataset files into a structured format.
                     </p>
+                    <h3 class="text-3xl text-gray-800 font-bold leading-none mb-2">Data Cleaning:</h3>
+                    <p class="mb-8 text-gray-600">Handling missing or inconsistent values, removing duplicates, and
+                        standardizing column names.
+                    </p>
+                    <h3 class="text-3xl text-gray-800 font-bold leading-none mb-2">Data Export:</h3>
+                    <p class="mb-12 text-gray-600">Saving the cleaned dataset as an intermediate file for the next phase
+                        of analysis.
+                    </p>
+                </div>
+                <div class="w-full sm:w-1/2 p-6">
+                    <img src="./images/cleaning.png" alt="Data Cleaning Process" class="w-full h-auto" />
                 </div>
             </div>
         </div>
@@ -409,24 +419,37 @@
             <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
                 PHASE 2 - Data Processing
             </h2>
-            <div class="w-full mb-4">
+            <div class="w-full mb-4 flex flex-col items-center">
                 <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+                <a href="https://colab.research.google.com/github/Vaibhavsingh-23/Efficient-Traffic-Analysis/blob/main/notebooks/2-data-preprocessing.ipynb" target="_blank" rel="noopener noreferrer">
+                    <button class="flex items-center justify-center rounded-md hover:shadow-md transition-shadow duration-300 mt-4">
+                        <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" class="h-6 w-auto" />
+                    </button>
+                </a>
             </div>
             <div class="flex flex-wrap">
-                <div class="w-5/6 sm:w-1/2 p-6">
+                <div class="w-full sm:w-1/2 p-6">
+                    <p class="mb-12 text-gray-600">
+                        In this phase, we refine and structure the cleaned dataset to make it suitable for machine learning models. This step ensures that the data is properly formatted, balanced, and ready for training. Key tasks include
+                    </p>
                     <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-                        Lorem ipsum dolor sit amet
+                        Feature Selection & Encoding:
                     </h3>
                     <p class="text-gray-600 mb-8">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo
-                        posuere et sit amet ligula.
-                        <br />
-                        <br />
-
-                        Images from:
-
-                        <a class="text-pink-500 underline" href="https://undraw.co/">undraw.co</a>
+                        Transforming categorical data into numerical format.
                     </p>
+                    <h3 class="text-3xl text-gray-800 font-bold leading-none mb-2">Handling Missing Values:</h3>
+                    <p class="mb-8 text-gray-600">Applying imputation techniques to fill gaps in the data.
+                    </p>
+                    <h3 class="text-3xl text-gray-800 font-bold leading-none mb-2">Data Scaling & Normalization:</h3>
+                    <p class="mb-12 text-gray-600">Standardizing values for optimal model performance.
+                    </p>
+                    <h3 class="text-3xl text-gray-800 font-bold leading-none mb-2">Dataset Splitting:</h3>
+                    <p class="mb-12 text-gray-600">Dividing the data into training and testing sets for evaluation.
+                    </p>
+                </div>
+                <div class="w-full sm:w-1/2 p-6">
+                    <img src="./images/processing.png" alt="Data Cleaning Process" class="w-full h-auto" />
                 </div>
             </div>
         </div>
@@ -438,24 +461,37 @@
             <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
                 PHASE 3 - Applying Machine Learning Models
             </h2>
-            <div class="w-full mb-4">
+            <div class="w-full mb-4 flex flex-col items-center">
                 <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+                <a href="https://colab.research.google.com/github/Vaibhavsingh-23/Efficient-Traffic-Analysis/blob/main/notebooks/3-model-training.ipynb" target="_blank" rel="noopener noreferrer">
+                    <button class="flex items-center justify-center rounded-md hover:shadow-md transition-shadow duration-300 mt-4">
+                        <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" class="h-6 w-auto" />
+                    </button>
+                </a>
             </div>
             <div class="flex flex-wrap">
-                <div class="w-5/6 sm:w-1/2 p-6">
+                <div class="w-full sm:w-1/2 p-6">
+                    <p class="mb-12 text-gray-600">
+                        In this phase, we leverage the preprocessed dataset to train multiple machine learning models for network traffic classification. The goal is to evaluate different algorithms and identify the most effective one. Key steps include:
+                    </p>
                     <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-                        Lorem ipsum dolor sit amet
+                        Model Selection:
                     </h3>
                     <p class="text-gray-600 mb-8">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo
-                        posuere et sit amet ligula.
-                        <br />
-                        <br />
-
-                        Images from:
-
-                        <a class="text-pink-500 underline" href="https://undraw.co/">undraw.co</a>
+                        Training various classification models such as Decision Trees, Random Forest, Naïve Bayes, SVM, and KNN.
                     </p>
+                    <h3 class="text-3xl text-gray-800 font-bold leading-none mb-2">Hyperparameter Tuning:</h3>
+                    <p class="mb-8 text-gray-600">Using GridSearchCV to optimize model performance.
+                    </p>
+                    <h3 class="text-3xl text-gray-800 font-bold leading-none mb-2">Model Evaluation: </h3>
+                    <p class="mb-12 text-gray-600">Measuring accuracy, precision, recall, and F1-score to compare classifiers.
+                    </p>
+                    <h3 class="text-3xl text-gray-800 font-bold leading-none mb-2">Performance Comparison:</h3>
+                    <p class="mb-12 text-gray-600">Selecting the best-performing model for deployment.
+                    </p>
+                </div>
+                <div class="w-full sm:w-1/2 p-6">
+                    <img src="./images/models.png" alt="Data Cleaning Process" class="w-full h-auto" />
                 </div>
             </div>
         </div>
@@ -498,13 +534,15 @@
         <h3 class="my-4 text-3xl leading-tight">
             Code and Dataset Available at:
         </h3>
-        <a href="https://github.com/Vaibhavsingh-23/Efficient-Traffic-Analysis">
-            <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out flex items-center space-x-2">
-                <!-- Font Awesome GitHub Icon -->
-                <i class="fab fa-github w-5 h-5 text-gray-800"></i>
-                <span>Github</span>
-            </button>
-        </a>  
+        <div style="display: flex; justify-content: center;">
+            <a href="https://github.com/Vaibhavsingh-23/Efficient-Traffic-Analysis">
+                <button
+                    class="lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out flex items-center space-x-2">
+                    <i class="fab fa-github w-5 h-5 text-gray-800"></i>
+                    <span>Github</span>
+                </button>
+            </a>
+        </div>
     </section>
     <!-- jQuery if you need it
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
